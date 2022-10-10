@@ -5,11 +5,11 @@ import Bedroom from "./Bedroom";
 const FloorPlan = (props) => {
   return ( 
     <div>
-      <Bedroom bedroomNo= '1' />
+      <Bedroom bedNum= '1' />
       <Kitchen />
-      <Bedroom bedroomNo= '2' />
+      <Bedroom bedNum= '2' />
       <LivingRoom />
-      <Bedroom bedroomNo= '3' />
+      <Bedroom bedNum= '3' />
     </div>
   );
 }
